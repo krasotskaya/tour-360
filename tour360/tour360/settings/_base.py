@@ -89,6 +89,7 @@ WSGI_APPLICATION = 'tour360.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -99,6 +100,7 @@ DATABASES = {
         'PORT': get_secret('DATABASE_PORT'),
     }
 }
+"""
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
